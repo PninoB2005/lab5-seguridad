@@ -32,11 +32,7 @@ build/
 ### VS Code ###
 .vscode/
 
-*.p12
-*.crt
-.env
-
-# Certificados y archivos sensibles
+# Certificados y archivos sensibles (regla eliminatoria: nunca versionar)
 *.p12
 *.crt
 *.key
@@ -46,9 +42,4 @@ build/
 .env.*
 
 # Archivos compilados
-target/
 *.class
-
-# Configuración local de IDE
-.idea/
-.vscode/
